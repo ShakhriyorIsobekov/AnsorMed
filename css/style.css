@@ -27,6 +27,19 @@ body {
 
 .header__nav-logo, .header__nav-img {
    display: block;
+   transition: opacity 0.4s ease;
+}
+
+.header__nav-logo:hover {
+   color: #DE2E54;
+}
+
+.header__nav-logo:active {
+   opacity: 0.6;
+}
+
+.header__nav-logo:hover {
+   color: #DE2E54;
 }
 
 .header__nav-list {
@@ -43,10 +56,20 @@ body {
    line-height: 21px;
    text-transform: uppercase;
    letter-spacing: 2px;
+   transition: color 0.4s ease,
+      opacity 0.4s ease;
+}
+
+.header__nav-link:hover {
+   color: #DE2E54;
+}
+
+.header__nav-link:active {
+   opacity: 0.6;
 }
 
 .header__nav-btn {
-   /* display: block; */
+   display: block;
    color: #fff;
    padding: 12px 24px;
    font-family: "Roboto Condensed", "Arial", sans-serif;
@@ -58,6 +81,20 @@ body {
    border-radius: 8px;
    text-transform: uppercase;
    border: 2px solid #DE2E54;
+   transition: color 0.5s ease,
+      background-color 0.5s ease,
+      opacity 0.5s ease;
+}
+
+.header__nav-btn:hover {
+   background-color: #fff;
+   color: #DE2E54;
+}
+
+.header__nav-btn:active {
+   opacity: 0.6;
+   background-color: #DE2E54;
+   color: #fff;
 }
 
 .header__background {
@@ -103,6 +140,20 @@ body {
    border-radius: 8px;
    text-transform: uppercase;
    border: 2px solid #DE2E54;
+   transition: color 0.5s ease,
+      background-color 0.5s ease,
+      opacity 0.5s ease;
+}
+
+.header__content-btn:hover {
+   background-color: #fff;
+   color: #DE2E54;
+}
+
+.header__content-btn:active {
+   opacity: 0.6;
+   background-color: #DE2E54;
+   color: #fff;
 }
 
 .header__content-img {
@@ -177,6 +228,20 @@ body {
    text-transform: uppercase;
    border: 2px solid #DE2E54;
    margin-bottom: 120px;
+   transition: color 0.5s ease,
+      background-color 0.5s ease,
+      opacity 0.5s ease;
+}
+
+.section__btn:hover {
+   background-color: #fff;
+   color: #DE2E54;
+}
+
+.section__btn:active {
+   opacity: 0.6;
+   background-color: #DE2E54;
+   color: #fff;
 }
 
 .section__two {
@@ -214,7 +279,22 @@ body {
    font-weight: 700;
    border: 2px solid #fff;
    border-radius: 8px;
+   transition: color 0.5s ease,
+      background-color 0.5s ease,
+      opacity 0.5s ease,
+      border 0.4s ease;
 }
+
+.section__two-btn:hover {
+   background-color: #DE2E54;
+   color: #fff;
+   border: 2px solid #DE2E54;
+}
+
+.section__two-btn:active {
+   opacity: 0.6;
+}
+
 /* Main ends */
 
 /* Footer starts */
@@ -232,6 +312,11 @@ body {
 
 .footer__content-logo {
    display: block;
+   transition: opacity 0.4s ease;
+}
+
+.footer__content-logo:active {
+   opacity: 0.6;
 }
 
 .footer__content-list {
@@ -248,6 +333,16 @@ body {
    line-height: 21px;
    letter-spacing: 2px;
    text-transform: uppercase;
+   transition: color 0.4s ease,
+      opacity 0.4s ease;
+}
+
+.footer__content-link:hover {
+   color: #DE2E54;
+}
+
+.footer__content-link:active {
+   opacity: 0.6;
 }
 
 /* Footer ends */
