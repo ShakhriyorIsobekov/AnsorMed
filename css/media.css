@@ -1,0 +1,146 @@
+@media screen and (max-width: 1000px) {
+   .header__nav {
+      flex-direction: column;
+      row-gap: 10px;
+   }
+
+   .header__nav-wrapper {
+      flex-direction: column;
+      row-gap: 10px;
+      align-items: center;
+   }
+
+   .header__nav-btn {
+      max-width: 214px;
+      width: 100%;
+   }
+
+   .header__background {
+      margin-bottom: 70px;
+   }
+
+   .footer {
+      padding: 0 15px;
+   }
+}
+
+@media screen and (max-width: 750px) {
+   .header__content {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .header__content-left {
+      margin-bottom: 32px;
+      text-align: center;
+   }
+
+   .header__content-img {
+      width: 100%;
+      height: 400px;
+   }
+
+   .footer__content {
+      flex-direction: column;
+      row-gap: 15px;
+   }
+}
+
+@media screen and (max-width: 650px) {
+   .header__nav-list {
+      margin-right: 0;
+      flex-wrap: wrap;
+   }
+
+   .header__nav-list li {
+      margin-bottom: 10px;
+   }
+
+   .header__nav-btn {
+      max-width: 190px;
+      width: 100%;
+      font-size: 14px;
+      line-height: 18px;
+      padding: 8px 16px;
+   }
+
+   /* Main__Content */
+   .main__content-two {
+      padding: 40px 10px;
+   }
+
+   .main__two-title {
+      font-size: 32px;
+      line-height: 35.2px;
+      margin-bottom: 24px;
+      text-align: center;
+   }
+
+   .main__two-content {
+      justify-content: center;
+      row-gap: 15px;
+      flex-wrap: wrap;
+   }
+
+   .footer__content-list {
+      flex-wrap: wrap;
+   }
+
+   .footer__content-list li {
+      margin-bottom: 10px;
+   }
+}
+
+
+@media screen and (max-width: 500px) {
+   .header__content-title {
+      font-size: 30px;
+      line-height: 35px;
+   }
+
+   .section__card {
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .section__card-content {
+      margin-left: 0;
+   }
+
+   .section__card-img {
+      width: 100%;
+      margin-bottom: 5px;
+   }
+
+   .section__card-title {
+      font-size: 20px;
+      line-height: 20.8px;
+      margin-bottom: 16px;
+   }
+
+   .section__card-text {
+      line-height: 20px;
+   }
+}
+
+
+@media screen and (max-width: 400px) {
+   .header__nav-list {
+      flex-direction: column;
+   }
+
+   .header__nav-list li {
+      margin-bottom: 5px;
+   }
+
+   .main__two-title {
+      padding: 0 5px;
+      font-size: 26px;
+      line-height: 20px;
+   }
+
+   .footer__content-list {
+      flex-direction: column;
+   }
+
+}
